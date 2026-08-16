@@ -9,7 +9,7 @@ from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
                              QTableWidget, QTableWidgetItem, QPushButton,
                              QLineEdit, QLabel, QMessageBox, QHeaderView,
                              QMenu, QToolBar, QStatusBar, QFileDialog,
-                             QApplication, QStyle)
+                             QApplication, QSystemTrayIcon)
 from PyQt6.QtCore import Qt, QTimer, pyqtSignal, QThread, QSettings
 from PyQt6.QtGui import QAction, QIcon, QColor
 
