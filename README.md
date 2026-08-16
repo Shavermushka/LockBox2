@@ -1,4 +1,7 @@
-# 🔒 LockBox Pro
+# 🔒 LockBox2
+
+![Alpha](https://img.shields.io/badge/Alpha-Проект-4D6BFE?style=for-the-badge&logo=github&logoColor=white) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-Derivatives_✓_Tested-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
+
 
 **Безопасное хранилище паролей с открытым исходным кодом**  
 Локальное десктопное приложение на Python + PyQt6 с AES-256 шифрованием.
