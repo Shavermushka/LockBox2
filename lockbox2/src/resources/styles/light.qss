@@ -1,0 +1,184 @@
+/* ============================================================
+   Светлая тема (премиум) — LockBox Pro
+   ============================================================ */
+
+* {
+    font-family: "Segoe UI", "SF Pro Display", system-ui, sans-serif;
+}
+
+QMainWindow, QDialog {
+    background-color: #f7f7fc;
+    color: #1e1e2a;
+}
+
+QWidget {
+    background-color: transparent;
+    color: #1e1e2a;
+}
+
+/* --- Карточки и группы --- */
+QGroupBox {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e8;
+    border-radius: 12px;
+    margin-top: 16px;
+    padding-top: 12px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 16px;
+    padding: 0 8px;
+    color: #5a5a72;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* --- Таблица --- */
+QTableWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f3f3f9;
+    color: #1e1e2a;
+    gridline-color: #e8e8f0;
+    border: none;
+    border-radius: 10px;
+    selection-background-color: #4d6bfe;
+    selection-color: #fff;
+}
+QHeaderView::section {
+    background-color: #f7f7fc;
+    color: #5a5a72;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 2px solid #e0e0e8;
+    font-weight: 600;
+    font-size: 13px;
+}
+QTableWidget::item {
+    padding: 6px 10px;
+}
+QTableWidget::item:selected {
+    background-color: #4d6bfe;
+    color: #fff;
+}
+
+/* --- Поля ввода --- */
+QLineEdit, QTextEdit, QComboBox, QSpinBox {
+    background-color: #ffffff;
+    color: #1e1e2a;
+    border: 1.5px solid #d0d0dc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    transition: border 0.2s;
+}
+QLineEdit:focus, QTextEdit:focus, QComboBox:focus, QSpinBox:focus {
+    border-color: #4d6bfe;
+    background-color: #fafaff;
+}
+QLineEdit[echoMode="2"] {
+    letter-spacing: 2px;
+}
+
+/* --- Кнопки --- */
+QPushButton {
+    background-color: #e8e8f0;
+    color: #1e1e2a;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: 500;
+    font-size: 13px;
+    transition: background 0.2s, transform 0.1s;
+}
+QPushButton:hover {
+    background-color: #d5d5e5;
+}
+QPushButton:pressed {
+    background-color: #c0c0d8;
+    transform: scale(0.97);
+}
+QPushButton#btnPrimary {
+    background-color: #4d6bfe;
+    color: #fff;
+}
+QPushButton#btnPrimary:hover {
+    background-color: #5f7aff;
+}
+QPushButton#btnPrimary:pressed {
+    background-color: #3a55dd;
+}
+
+/* --- Меню --- */
+QMenuBar {
+    background-color: #f7f7fc;
+    color: #3a3a4e;
+    border-bottom: 1px solid #e8e8f0;
+}
+QMenuBar::item:selected {
+    background-color: #e8e8f0;
+}
+QMenu {
+    background-color: #ffffff;
+    border: 1px solid #d0d0dc;
+    border-radius: 8px;
+    padding: 4px 0;
+}
+QMenu::item {
+    padding: 6px 24px;
+    border-radius: 4px;
+}
+QMenu::item:selected {
+    background-color: #4d6bfe;
+    color: #fff;
+}
+
+/* --- Статусбар --- */
+QStatusBar {
+    background-color: #f7f7fc;
+    color: #808098;
+    border-top: 1px solid #e8e8f0;
+    padding: 4px 8px;
+}
+
+/* --- Прогресс-бар (сложность пароля) --- */
+QProgressBar {
+    background-color: #e8e8f0;
+    border: 1px solid #d0d0dc;
+    border-radius: 6px;
+    text-align: center;
+    color: #1e1e2a;
+    height: 14px;
+}
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #4d6bfe, stop:1 #7b93ff);
+    border-radius: 6px;
+}
+
+/* --- Скроллбары --- */
+QScrollBar:vertical {
+    background: #f7f7fc;
+    width: 10px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background: #d0d0dc;
+    border-radius: 5px;
+    min-height: 30px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #b8b8cc;
+}
+QScrollBar:horizontal {
+    background: #f7f7fc;
+    height: 10px;
+    border-radius: 5px;
+}
+QScrollBar::handle:horizontal {
+    background: #d0d0dc;
+    border-radius: 5px;
+    min-width: 30px;
+}
+QScrollBar::handle:horizontal:hover {
+    background: #b8b8cc;
+}
