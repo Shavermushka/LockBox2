@@ -69,8 +69,8 @@ python main.py
 LockBox2/
 ├── main.py                 # entry point
 ├── requirements.txt        # dependencies
-├── README.md               # this file (Russian)
-├── README.en.md            # English version
+├── README.md               
+├── README.en.md            
 ├── .gitignore
 └── src/
     ├── app.py              # initialisation and event loop
