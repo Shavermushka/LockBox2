@@ -1,13 +1,11 @@
 
 # 🔒 LockBox2
 
-[[https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-README-blue](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-README-blue)](https://README.en.md)
-[[https://img.shields.io/badge/%F0%9F%87%B7%F0%9F%87%BA_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-README-4D6BFE](https://img.shields.io/badge/%F0%9F%87%B7%F0%9F%87%BA_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-README-4D6BFE)](https://README.md)
+[![English](https://img.shields.io/badge/🇬🇧_English-README-blue)](README.en.md)
+[![Русский](https://img.shields.io/badge/🇷🇺_Русский-README-4D6BFE)](README.md)
 
----
-
-[https://img.shields.io/badge/Alpha-%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82-4D6BFE?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/Alpha-%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82-4D6BFE?style=for-the-badge&logo=github&logoColor=white)
-[https://img.shields.io/badge/Arch_Linux-Derivatives_%E2%9C%93_Tested-1793D1?style=for-the-badge&logo=archlinux&logoColor=white](https://img.shields.io/badge/Arch_Linux-Derivatives_%E2%9C%93_Tested-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
+![Alpha](https://img.shields.io/badge/Alpha-Проект-4D6BFE?style=for-the-badge&logo=github&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-Derivatives_✓_Tested-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
 
 **Безопасное хранилище паролей с открытым исходным кодом**
 Локальное десктопное приложение на Python + PyQt6 с AES‑256 шифрованием.
