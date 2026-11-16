@@ -6,7 +6,7 @@
 
 ![Alpha](https://img.shields.io/badge/Alpha-Проект-4D6BFE?style=for-the-badge&logo=github&logoColor=white)
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-Derivatives_✓_Tested-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
-![Tested on Windows 10](https://img.shields.io/badge/Tested%20on-Windows%2010-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Tested on Windows 10](https://img.shields.io/badge/Tested_on-Windows_10-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 <img src="https://img.shields.io/badge/Status-Suspended-red" alt="Project Status">
 Безопасное хранилище паролей с открытым исходным кодом
